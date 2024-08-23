@@ -33,7 +33,7 @@ function App() {
           })
         );
 
-        // Set the fetched Pokemon data as {name:imageUrl}
+        // Set the fetched Pokemon data
         setPokemons(pokemonsNameAndImage);
       } catch (error) {
         // Log and set error message if data fetching fails
